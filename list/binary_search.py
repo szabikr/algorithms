@@ -1,4 +1,10 @@
-def binary_search(array, item):
+"""
+Find an element in an ordered list and return its index.
+"""
+
+from typing import Optional
+
+def binary_search(array: list[int], item: int) -> Optional[int]:
     low = 0
     high = len(array) - 1
 

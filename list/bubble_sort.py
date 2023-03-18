@@ -1,4 +1,10 @@
-def bubble_sort(l):
+"""
+Sort an list of integers using the Bubble Sort technique.
+
+Return the sorted list.
+"""
+
+def bubble_sort(l: list[int]) -> list[int]:
     for j in range(len(l)):
         swapped = False
         for i in range(len(l) - 1 - j):

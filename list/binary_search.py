@@ -7,7 +7,6 @@ from typing import Optional
 def binary_search(array: list[int], item: int) -> Optional[int]:
     low = 0
     high = len(array) - 1
-
     while low <= high:
         pos = (low + high) // 2
         guess = array[pos]
